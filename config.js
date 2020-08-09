@@ -21,7 +21,7 @@ module.exports = {
     },
   ],
   author: {
-    name: 'Erik Smith',
+    name: 'Sitting in Oblivion',
     photo: '', // This is the bio pic
     bio: '',
     contacts: {
