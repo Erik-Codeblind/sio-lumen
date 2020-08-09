@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://sittinginoblivion.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Sitting in Oblivion',
+  subtitle: 'Just one of many Erik Smiths\' many blogs.',
+  copyright: '© 2005-2020 by Erik Smith. All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -17,27 +17,23 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Erik Smith',
+    photo: '', // This is the bio pic
+    bio: '',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
