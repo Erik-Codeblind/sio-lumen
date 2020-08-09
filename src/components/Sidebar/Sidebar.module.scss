@@ -1,12 +1,25 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
+@mixin mobile-header {
+  background: #000;
+  color: #2aa198;
+  text-align: center;
+  a {
+    color: #2aa198;
+  }
+  .menu {
+    display: none;
+  }
+}
+
 .sidebar {
-    width: 100%;
+  width: 100%;
     &__inner {
         position: relative;
-        padding: 25px 20px 0;
+        padding: 5px 20px 0;
     }
+    @include mobile-header;
 }
 
 @include breakpoint-sm {

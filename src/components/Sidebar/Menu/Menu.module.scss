@@ -2,7 +2,12 @@
 @import '../../../assets/scss/mixins';
 
 .menu {
-  @include margin-bottom(1);
+  display: none;
+
+  @include breakpoint-sm {
+    display: block;
+    @include margin-bottom(1);
+  }
 
   &__list {
     list-style: none;
@@ -37,3 +42,4 @@
   }
 
 }
+
